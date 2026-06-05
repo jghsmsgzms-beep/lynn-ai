@@ -6,15 +6,21 @@
 <title>Lynn AI Daily Brief</title>
 <style>
 body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"PingFang SC",Arial;background:#f5f7fb;color:#111827}
-header{background:linear-gradient(135deg,#0f172a,#1e40af);color:white;padding:32px 20px}
-h1{margin:0;font-size:34px} .sub{color:#bfdbfe;margin-top:8px}
-main{padding:16px} section{background:white;border-radius:18px;padding:18px;margin:16px 0;box-shadow:0 8px 24px #0001}
+header{background:linear-gradient(135deg,#0f172a,#1e40af);color:white;padding:34px 20px}
+h1{margin:0;font-size:34px}.sub{color:#bfdbfe;margin-top:8px;line-height:1.5}
+main{padding:16px;max-width:980px;margin:auto}
+section{background:white;border-radius:18px;padding:18px;margin:16px 0;box-shadow:0 8px 24px #0001}
 h2{margin-top:0}.green{color:#059669;font-weight:800}.red{color:#dc2626;font-weight:800}.yellow{color:#d97706;font-weight:800}
-table{width:100%;border-collapse:collapse;font-size:14px}th,td{padding:10px;border-bottom:1px solid #e5e7eb;text-align:left}th{background:#f8fafc}
-.card{padding:14px;border-radius:14px;background:#f8fafc;margin:10px 0}
+table{width:100%;border-collapse:collapse;font-size:14px}th,td{padding:10px;border-bottom:1px solid #e5e7eb;text-align:left;vertical-align:top}th{background:#f8fafc}
+.card{padding:14px;border-radius:14px;background:#f8fafc;margin:10px 0;border:1px solid #e5e7eb}
 .badge{display:inline-block;padding:5px 9px;border-radius:999px;background:#e0f2fe;color:#0369a1;font-weight:700;margin:4px}
+.biglink{display:block;padding:16px;border-radius:14px;background:#eff6ff;margin:10px 0;color:#2563eb;text-decoration:none;font-weight:800}
+.spark{font-size:22px;letter-spacing:2px;white-space:nowrap}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:10px}
+.small{color:#64748b;font-size:13px}
 </style>
 </head>
+
 <body>
 <header>
   <h1>📈 Lynn AI Daily Brief</h1>
@@ -23,75 +29,173 @@ table{width:100%;border-collapse:collapse;font-size:14px}th,td{padding:10px;bord
     <span class="badge">AI Networking</span>
     <span class="badge">Silicon Photonics</span>
     <span class="badge">AI Power</span>
+    <span class="badge">Space</span>
   </div>
 </header>
 
 <main>
+
+<section>
+<h2>🔥 最新日报</h2>
+<a class="biglink" href="#">
+2026-06-05｜AI市场分化：MRVL强、AVGO/MU回调、光通信继续热
+</a>
+<p class="small">以后每天新日报会加到历史归档，不覆盖旧内容。</p>
+</section>
+
 <section>
 <h2>🚨 未来30天关键事件</h2>
 <table>
-<tr><th>日期</th><th>事件</th><th>影响</th></tr>
-<tr><td>6/6</td><td>非农就业</td><td>影响NVDA/AVGO/MRVL/MU</td></tr>
-<tr><td>6/11</td><td>CPI通胀</td><td>本月最重要宏观事件</td></tr>
-<tr><td>6/17-18</td><td>FOMC</td><td>决定降息预期</td></tr>
-<tr><td>6/10前后</td><td>TSMC月营收</td><td>AI需求风向标</td></tr>
-<tr><td>6/25预计</td><td>MU财报</td><td>HBM产业链验证</td></tr>
+<tr><th>日期</th><th>事件</th><th>人话解释</th><th>重点影响</th></tr>
+<tr><td>6/6</td><td>非农就业</td><td>美国就业成绩单；太强可能压制降息预期</td><td>NVDA / AVGO / MRVL / MU</td></tr>
+<tr><td>6/10前后</td><td>TSMC月营收</td><td>AI芯片需求风向标</td><td>NVDA / AMD / AVGO / MRVL</td></tr>
+<tr><td>6/11</td><td>CPI通胀</td><td>美国通胀成绩单；高于预期通常利空AI成长股</td><td>整个AI板块</td></tr>
+<tr><td>6/17-18</td><td>FOMC</td><td>美联储议息会议，决定降息预期</td><td>高估值科技股</td></tr>
+<tr><td>6/25预计</td><td>MU财报</td><td>HBM产业链验证</td><td>MU / AI内存链</td></tr>
+</table>
+</section>
+
+<section>
+<h2>🆕 科技 IPO / 新股雷达</h2>
+<table>
+<tr><th>公司</th><th>预计时间</th><th>代码</th><th>IPO价格</th><th>IPO估值 / 最新估值</th><th>为什么重要</th></tr>
+<tr><td>SpaceX</td><td>6/12预计</td><td>SPCX / 待确认</td><td>$135/股</td><td>约$1.75T，拟募资约$75B</td><td>影响RKLB、ASTS、Space、AI基础设施情绪</td></tr>
+<tr><td>OpenAI</td><td>待定</td><td>待定</td><td>待定</td><td>市场传闻高估值</td><td>影响NVDA、MSFT、AI软件和算力需求</td></tr>
+<tr><td>Anthropic</td><td>待定</td><td>待定</td><td>待定</td><td>高估值AI独角兽</td><td>影响AI模型、云计算、算力链估值</td></tr>
+<tr><td>Databricks</td><td>待定</td><td>待定</td><td>待定</td><td>约$100B级别传闻</td><td>影响AI数据平台、企业AI软件估值</td></tr>
+<tr><td>xAI</td><td>待定</td><td>待定</td><td>待定</td><td>待定</td><td>影响AI模型、Tesla、SpaceX生态情绪</td></tr>
+</table>
+<p><b>人话：</b>IPO雷达看的是市场风险偏好。如果SpaceX这种大票顺利上市，Space和AI基础设施情绪可能被带动。</p>
+</section>
+
+<section>
+<h2>📊 大盘最近5日趋势</h2>
+<p class="small">迷你趋势图用于快速看方向，不代表精确K线。</p>
+<table>
+<tr><th>指数</th><th>昨日表现</th><th>5日趋势</th><th>状态</th></tr>
+<tr><td>道琼斯</td><td class="green">+1.73%</td><td class="green spark">▂▃▄▆▇</td><td class="green">传统行业强</td></tr>
+<tr><td>标普500</td><td class="green">+0.41%</td><td class="green spark">▃▄▅▅▆</td><td class="green">稳步上行</td></tr>
+<tr><td>纳斯达克</td><td class="red">-0.09%</td><td class="yellow spark">▃▅▆▅▅</td><td class="yellow">科技股分化</td></tr>
+<tr><td>VIX恐慌指数</td><td class="yellow">低位震荡</td><td class="yellow spark">▃▂▂▃▂</td><td class="green">市场未恐慌</td></tr>
+</table>
+</section>
+
+<section>
+<h2>📈 热门股票最近5日趋势</h2>
+<table>
+<tr><th>股票</th><th>最近收盘</th><th>日涨跌</th><th>5日趋势</th><th>状态</th></tr>
+<tr><td><b>NVDA</b></td><td>$218.66</td><td class="green">+1.84%</td><td class="green spark">▁▂▃▅▆</td><td class="green">稳步上行</td></tr>
+<tr><td><b>AVGO</b></td><td>$418.91</td><td class="red">-12.5%</td><td class="red spark">▇▆▆▅▂</td><td class="red">财报后回调</td></tr>
+<tr><td><b>MRVL</b></td><td>$316.43</td><td class="green">+4.9%</td><td class="green spark">▁▃▅▆▇</td><td class="green">最强趋势</td></tr>
+<tr><td><b>MU</b></td><td>~$996</td><td class="red">-7.6%</td><td class="red spark">▇▇▆▄▂</td><td class="yellow">获利了结</td></tr>
+<tr><td><b>AAOI</b></td><td>$202.89</td><td class="green">+10.2%</td><td class="green spark">▁▂▄▆▇</td><td class="green">强势突破</td></tr>
+<tr><td><b>SIVE/SIVEF</b></td><td>高波动</td><td class="yellow">大涨后震荡</td><td class="yellow spark">▂▃▇▆▅</td><td class="yellow">情绪驱动</td></tr>
+<tr><td><b>POET</b></td><td>$15.48</td><td class="green">+0.7%</td><td class="yellow spark">▃▄▅▄▅</td><td class="yellow">震荡跟随</td></tr>
+<tr><td><b>RKLB</b></td><td>$119.95</td><td class="green">+4.6%</td><td class="green spark">▂▃▄▆▇</td><td class="green">Space强势</td></tr>
 </table>
 </section>
 
 <section>
 <h2>🌎 市场总览</h2>
-<div class="card">🟢 道琼斯：<b>+1.73%</b></div>
-<div class="card">🟢 标普500：<b>+0.41%</b></div>
-<div class="card">🔴 纳斯达克：<b>-0.09%</b></div>
-<p><b>一句话：</b>传统行业上涨，AI板块内部开始分化。</p>
+<div class="grid">
+  <div class="card">🟢 道琼斯：<b>+1.73%</b><br><span class="small">传统行业强，创历史新高</span></div>
+  <div class="card">🟢 标普500：<b>+0.41%</b><br><span class="small">大盘上涨</span></div>
+  <div class="card">🔴 纳斯达克：<b>-0.09%</b><br><span class="small">AI科技分化</span></div>
+</div>
+<p><b>一句话：</b>不是熊市，而是AI板块从“全涨”进入“看预期兑现”的分化阶段。</p>
+</section>
+
+<section>
+<h2>📈 Winners / 📉 Losers</h2>
+<div class="grid">
+  <div class="card">
+    <h3>🟢 Winners</h3>
+    <p>AAOI：<span class="green">+10.2%</span></p>
+    <p>MRVL：<span class="green">+4.9%</span></p>
+    <p>RKLB：<span class="green">+4.6%</span></p>
+    <p>NVDA：<span class="green">+1.84%</span></p>
+  </div>
+  <div class="card">
+    <h3>🔴 Losers</h3>
+    <p>AVGO：<span class="red">-12.5%</span></p>
+    <p>MU：<span class="red">-7.6%</span></p>
+    <p>AMD：<span class="red">-3.6%</span></p>
+    <p>CRWD：<span class="red">财报后下跌</span></p>
+  </div>
+</div>
 </section>
 
 <section>
 <h2>🤖 AI核心股</h2>
 <table>
-<tr><th>股票</th><th>收盘</th><th>日涨跌</th><th>原因</th></tr>
-<tr><td>NVDA</td><td>$218.66</td><td class="green">+1.84%</td><td>AI龙头抗跌</td></tr>
-<tr><td>AVGO</td><td>$418.91</td><td class="red">-12.5%</td><td>财报好但预期更高</td></tr>
-<tr><td>MRVL</td><td>$316.43</td><td class="green">+4.9%</td><td>AI Networking最强主线</td></tr>
-<tr><td>MU</td><td>~$996</td><td class="red">-7.6%</td><td>获利了结，HBM逻辑未坏</td></tr>
-<tr><td>AMD</td><td>$523.20</td><td class="red">-3.6%</td><td>被AI板块拖累</td></tr>
-<tr><td>TSM</td><td>~$445</td><td class="green">+1.9%</td><td>CoWoS需求强</td></tr>
+<tr><th>股票</th><th>收盘</th><th>日涨跌</th><th>状态</th><th>为什么</th><th>下个催化剂</th></tr>
+<tr><td>NVDA</td><td>$218.66</td><td class="green">+1.84%</td><td class="green">强势</td><td>AI龙头抗跌，Rubin/NVLink预期仍强</td><td>8月财报 / Rubin</td></tr>
+<tr><td>AVGO</td><td>$418.91</td><td class="red">-12.5%</td><td class="yellow">震荡</td><td>财报好但不够超预期，杀估值</td><td>AI ASIC订单</td></tr>
+<tr><td>MRVL</td><td>$316.43</td><td class="green">+4.9%</td><td class="green">最强</td><td>AI Networking主线最强</td><td>1.6T / CPO / 财报</td></tr>
+<tr><td>MU</td><td>~$996</td><td class="red">-7.6%</td><td class="yellow">震荡</td><td>前期涨太猛，AVGO拖累后获利了结</td><td>6/25预计财报</td></tr>
+<tr><td>AMD</td><td>$523.20</td><td class="red">-3.6%</td><td class="yellow">震荡</td><td>被AI板块回调拖累</td><td>MI400 / AI服务器</td></tr>
+<tr><td>TSM</td><td>~$445</td><td class="green">+1.9%</td><td class="green">强势</td><td>CoWoS需求强，AI代工核心</td><td>6/10前后月营收</td></tr>
 </table>
 </section>
 
 <section>
-<h2>🌈 光通信 / CPO</h2>
+<h2>🌈 光通信 / Silicon Photonics / CPO</h2>
 <table>
-<tr><th>股票</th><th>表现</th><th>定位</th></tr>
-<tr><td>AAOI</td><td class="green">+10.2%</td><td>高弹性兑现票</td></tr>
-<tr><td>SIVE/SIVEF</td><td class="yellow">高波动</td><td>GF合作，梦想票</td></tr>
-<tr><td>POET</td><td class="green">+0.7%</td><td>Optical Engine梦想票</td></tr>
-<tr><td>LITE</td><td class="green">上涨</td><td>AI光器件龙头</td></tr>
-<tr><td>COHR</td><td class="green">上涨</td><td>激光器龙头</td></tr>
+<tr><th>股票</th><th>表现</th><th>定位</th><th>核心逻辑</th><th>风险</th></tr>
+<tr><td>AAOI</td><td class="green">+10.2%</td><td>高弹性兑现票</td><td>800G / 1.6T AI光模块</td><td>波动极大</td></tr>
+<tr><td>SIVE/SIVEF</td><td class="yellow">高波动</td><td>梦想票</td><td>GF合作 + Silicon Photonics + CPO</td><td>收入小、未量产</td></tr>
+<tr><td>POET</td><td class="green">+0.7%</td><td>梦想票</td><td>Optical Engine / AI互连</td><td>商业化待验证</td></tr>
+<tr><td>LITE</td><td class="green">上涨</td><td>兑现票</td><td>AI光器件龙头</td><td>涨幅已大</td></tr>
+<tr><td>COHR</td><td class="green">上涨</td><td>兑现票</td><td>激光器 / 光通信</td><td>估值消化</td></tr>
 </table>
 </section>
 
 <section>
 <h2>⚡ AI Factory</h2>
-<div class="card">VRT：冷却 / 液冷</div>
-<div class="card">ETN：电力管理</div>
-<div class="card">GEV：发电</div>
-<div class="card">SMCI：AI服务器</div>
+<div class="grid">
+  <div class="card"><b>VRT</b><br>冷却 / 液冷<br><span class="small">AI数据中心越大，热管理越重要</span></div>
+  <div class="card"><b>ETN</b><br>电力管理<br><span class="small">AI工厂需要更强电力分配</span></div>
+  <div class="card"><b>GEV</b><br>发电<br><span class="small">数据中心电力需求长期增加</span></div>
+  <div class="card"><b>SMCI</b><br>AI服务器<br><span class="small">AI服务器供应链核心</span></div>
+</div>
 </section>
 
 <section>
 <h2>🚀 Space</h2>
-<div class="card">RKLB：🟢 +4.6%，国防 + 卫星 + Space Systems</div>
+<div class="card">RKLB：<span class="green">+4.6%</span>，国防 + 卫星 + Space Systems</div>
 <div class="card">ASTS：卫星通信，保持关注</div>
-<div class="card">SpaceX：私有公司，关注Starlink和IPO进展</div>
+<div class="card">SpaceX：私有公司，关注Starlink、IPO、AI基础设施叙事</div>
+</section>
+
+<section>
+<h2>💼 Lynn Portfolio Watch</h2>
+<table>
+<tr><th>股票</th><th>你的成本/关注</th><th>昨日状态</th><th>我的备注</th></tr>
+<tr><td>AVGO</td><td>约$426</td><td class="red">跌破成本附近</td><td>逻辑未坏，但短期要消化财报后杀估值</td></tr>
+<tr><td>MRVL</td><td>关注</td><td class="green">强势</td><td>AI Networking最强趋势股</td></tr>
+<tr><td>MU</td><td>关注</td><td class="red">大跌</td><td>HBM逻辑未坏，但短期涨太多</td></tr>
+<tr><td>SIVE/SIVEF</td><td>关注</td><td class="yellow">高波动</td><td>梦想票，适合小仓位观察</td></tr>
+<tr><td>RKLB</td><td>关注</td><td class="green">强势</td><td>SpaceX IPO前后可能影响Space情绪</td></tr>
+</table>
+</section>
+
+<section>
+<h2>📚 历史晨报归档</h2>
+<div class="card">
+  2026-06-05｜AI市场分化：MRVL强、AVGO/MU回调、光通信继续热
+</div>
+<p class="small">下一步会新增 briefs 文件夹，每天一篇日报页面，历史永久保留。</p>
 </section>
 
 <section>
 <h2>🎯 一句话结论</h2>
 <p><b>AI市场正在从“买GPU”扩散到“买Networking、Silicon Photonics、Power Infrastructure”。</b></p>
-<p>当前最强三条主线：MRVL、AAOI/SIVE/LITE、VRT/ETN/GEV。</p>
+<p>当前最强三条主线：</p>
+<div class="card">🥇 AI Networking：MRVL / AVGO</div>
+<div class="card">🥈 Silicon Photonics：AAOI / SIVE / POET / LITE / COHR</div>
+<div class="card">🥉 AI Power：VRT / ETN / GEV</div>
 </section>
+
 </main>
 </body>
 </html>
